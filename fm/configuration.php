@@ -30,7 +30,6 @@ $dist_config['services']['Filegator\Services\Storage\Filesystem']['config']['ada
 	    'port' => intval(22),
 	    'username' => basename($v_user),
 	    'password' => $ftp_cred,
-	    'privateKey' => 'private/sessions/'.basename($v_user).'_fm_key',
             'root' => '/',
             'timeout' => 10,
             'directoryPerm' => 0755,
